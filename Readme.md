@@ -6,7 +6,7 @@
 
 Projeto construído do evento Next Level da Rocketseat
 
-[🔗 Click aqui para acessar](https://brunoleonardodev.github.io/NLW/oficial/landing)
+[🔗 Click aqui para acessar](https://brunoleonardodev.github.io/NLW/NLW-eSports/landing)
 
 
 ## 👨🏾‍💻 Tecnologias
