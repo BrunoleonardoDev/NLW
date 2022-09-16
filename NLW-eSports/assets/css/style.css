@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+
+:root{
+    --Roboto: 'Roboto', sans-serif;
+    --Roboto-Condensed: 'Roboto Condensed', sans-serif;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-image: url(image/Fundo-capa.svg);
+    background-repeat: no-repeat;
+}
+
+.txt-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.logo img{
+    width: 500px;
+    
+}
+
+.txt h1{
+    font-family:var(--Roboto-Condensed) ;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.txt p{
+    font-family: var(--Roboto);
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.capa img{
+    width: 200px;
+    margin: .5rem;
+}
+
+.capa img:hover{
+    cursor: pointer;
+}
+
+.games{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    
+}
+
+
+
+@media (max-width: 820px) {
+    .txt-logo{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .logo img{
+        width: 500px;
+        
+    }
+
+    .txt h1{
+        font-family:var(--Roboto-Condensed) ;
+        font-size: 5rem;
+        font-weight: 700;
+        color: #fff;
+    }
+    
+    .txt p{
+        font-family: var(--Roboto);
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .games{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .capa img{
+        width: 13rem;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .logo img{
+        width: 250px;
+    }
+
+    .txt h1{
+        font-size: 3rem;
+
+    }
+
+    .txt p{
+        font-size: 1.5rem;
+    }
+
+    .capa img{
+        width: 6.5rem;
+    }
+}

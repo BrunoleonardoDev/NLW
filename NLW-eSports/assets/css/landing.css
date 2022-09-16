@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+:root{
+    --inter: 'Inter', sans-serif;
+}
+    
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--inter);
+    background-image: url(../image/fundo-landing.svg);
+    background-color: #121214;
+    background-position: 100% auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 90%;
+    max-width: 580px;
+    height: 854px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+header{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+header div{
+    transition: transform .3s;
+}
+
+header div:hover{
+    transform: scale(1.1);
+}
+
+h2{
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: .5rem;
+    font-size: 24px;
+    letter-spacing: -0.47px;
+}
+
+p{
+    color: #A1A1AA;
+}
+
+.avatar img{
+    width: 120px;
+    border-radius: 50%;
+    padding: .3rem;
+    background-image: linear-gradient(-90deg,#E2D45C, #43E7AD, #9572FC);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+section, .card-01, .card-02, .card-03{
+background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section .container{
+    background-color: #2A2634;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px 32px 32px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.card-01{
+    height: 264px;
+    width: 580px;
+}
+
+
+.card-02{
+    height: 214px;
+    width: 580px;
+}
+
+.card-03{
+    height: 176px;
+    width: 580px;
+}
+
+
+
+.capa img{
+    width: 90px;
+    height: 120px;
+    transition: width .2s, height .4s;
+    border-radius: 8px;
+    
+}
+
+.capa img:hover{
+    width: 110px;
+    height: 140px;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.364);
+}
+
+.stream img{
+    width: 70px;
+    border-radius: 50%;
+    
+}
+
+.redes img{
+    width: 32px;
+    transition: width .2s, height .4s;
+}
+
+.redes img:hover{
+    width: 64px;
+}
+
+
+
+
